@@ -1,0 +1,132 @@
+WHEN ADDING PICS IN A MORE ORDERLY FASHION WITH TEXT:
+
+1. Have a test pic/shape of the desired dimensions on display in the web site
+
+2. Using those dimensions, translate them into the file size you desire and work from there
+
+----------------------------------
+FORMAT:
+Name (at top)
+Year (at top)
+
+Description of item (at bottom)
+Size (at bottom)
+Tools used (at bottom)
+Links to it if possible (at bottom)
+
+Note: Resize in Photoshop if necessary
+
+Pixel Art
+
+Fresh Brew
+Original Size: 32 x 32
+
+Giraffes In Disguise
+Original Size: 256 x 256
+
+Chirpy Birby
+Original Size: 32 x 32
+
+Pudding Pop
+Original Size: 32 x 32
+
+By An Open Fire
+Original Size: 240 x 180
+
+Mock-Up: Sweet Conversation
+Original Size: 300 x 237
+
+-------------------------------------
+Digital Art
+
+Twinkly Cubchoo
+Size: 640 x 480
+
+Year of the Fluff
+Size: 640 x 480
+
+Made of Love
+Original Size: 1920 x 1080
+
+Bouncy Kiwi 
+Original Size: 640 x 1136
+
+Genesect and Meloetta Dance Battle
+Size: 640 x 480
+
+Steampunk Pikachu
+Size: 640 x 480
+
+Togekiss Used Air Slash!
+Size: 640 x 480
+
+Cherrim Blossom
+Size: 640 x 480
+
+Blissfully Blissey
+Size: 640 x 480
+
+Radiant Volcarona
+Size: 640 x 480
+
+Treecko Berrycopia
+Size: 640 x 480
+
+Sweetsy Shiny Azurill
+Size: 640 x 480
+
+Pop Pourri: Pretty Dreams
+Size: 900 x 900
+
+Sweet Doll: Gumdrop
+Size: 900 x 900
+
+Pop Pourri: Witch Flight
+Size: 900 x 900
+
+Simple Lolita
+Original Size: 2400 x 3200
+
+-------------------------------------
+Graphic Art
+
+Mystique
+Original Size: 1739 x 6821
+
+Happy Burger
+Size: 466 x 336 (Burger), 277 x 366 (Fries), 346 x 292 (Sandwich)
+
+Don't Distress, De-stress
+Original Size: 1800 x 1350
+
+The Salt Line Menu Redo
+Original Size: 1700 x 2200 (Raw Bar Menu), 1700 x 2800 (Dinner Menu), 1100 x 1700 (Desserts Menu)
+
+Oliver Twist Book Redo
+Original Size: 1150 x 1500
+
+Oh Sweet, Type and Stuff
+Original Size: 1150 x 1750
+
+-------------------------------------
+Custom 404
+
+
+https://medium.com/designer-recipes/how-to-make-a-custom-404-error-page-for-your-website-1af37a8b20d1 
+-------------------------------------
+Software Experience:
+
+Aseprite
+Adobe Photoshop 
+Adobe Illustrator
+Adobe InDesign
+Adobe Camera Raw
+Adobe After Effects
+Brackets
+
+Other Software I Used:
+Adobe Dreamweaver
+Adobe Acrobat
+Microsoft Word
+Microsoft PowerPoint
+Microsoft Excel
