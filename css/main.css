@@ -1,0 +1,386 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family: "Starz 2";
+	src: url("../fonts/Starz 2.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Spatha Sans";
+	src: url("../fonts/spathasans.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+	
+@font-face {
+	font-family: "Soft Elegance";
+	src: url("../fonts/Soft Elegance.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*Hides Scrollbar*/
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+/*Hides Scrollbar*/
+
+a:link, a:active, a:visited {color: #a1b095; text-decoration: none;}
+a:hover {color: black; text-decoration: none;}
+
+/* Body - Contains all the main content (portfolio grid, about info, etc*/
+body {
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 17px;
+margin-bottom: 50px;
+font-family: "Spatha Sans";
+font-size: 12pt;
+line-height: 15pt;
+color: #628c54;
+background-color: #f4f1d7;
+overflow: hidden;
+overflow-y: scroll;
+
+}
+
+td {
+vertical-align: top;
+}
+
+h1 {
+font-family: "Spatha Sans";
+font-size: 18pt;
+}
+
+hr {
+border: 0px;
+border-top: 2px dashed #628c54;
+padding-bottom: 10px;
+font-family: "Spatha Sans";
+}
+
+/*Header - Logo and Name*/
+.header {
+padding: 0px;
+padding-top: 5px;
+font-size: 30pt;
+font-weight: bold;
+background-color: #264c1a;
+position: fixed;
+top: 0px;
+vertical-align: bottom;
+z-index:1;
+}
+
+/*Nav*/
+.nav {
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 25px;
+font-size: 16pt;
+font-weight: normal;
+font-family: "Spatha Sans";
+color: #f1f1aa;
+}
+
+.nav  a:link, a:active, a:visited {color: #f4f1d7; text-decoration: none;}
+.nav  a:hover {color: #86bc79; text-decoration: none;}
+
+/*stars b/w nav*/ 
+.nav h1 {
+	font-family: "Starz 2"; 
+	font-size: 16px;
+	display: inline;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+/*Main Page- Image Highlight*/
+.main  {
+padding-top: 95px;
+padding-bottom: 60px;
+width: 800px;
+align: center;
+}
+
+.main a:link, a:active {color: #a1b095; text-decoration: none;}
+.main a:visited {color: #a1b095; text-decoration: none;}
+.main a:hover {color: black; text-decoration: none;}
+
+/*About*/
+.about  {
+padding-top: 146px;
+padding-bottom: 60px;
+width: 850px;
+}
+
+.about a:link, a:active {color: #a1b095; text-decoration: none;}
+.about a:visited {color: #a1b095; text-decoration: none;}
+.about a:hover {color: black; text-decoration: none;}
+
+.about h1 {
+	display: inline;
+	
+}
+
+/*stars b/w text*/
+.about h2 {
+	font-family: "Starz 2"; 
+	font-size: 16px;
+	display: inline;
+	padding-left: 12px;
+	padding-right: 12px;
+	color: #628c54;
+}
+
+.about h3 {
+	font-family: "Spatha Sans";
+	font-size: 12pt;
+	margin-top: 0px;
+	color: #86bc79
+}
+
+.about hr {
+    text-align: center;
+    width: 850px;
+}
+
+.about h4 {
+	margin-top: 10px;
+	font-family: "Soft Elegance";
+	color: #86bc79;
+	font-size: 12pt;
+	text-align: justify;
+	line-height: 20px;
+    padding-right: 10px;
+}
+
+.about p {
+    margin-top: 10px;
+	font-family: "Soft Elegance";
+	color: #86bc79;
+	font-size: 12pt;
+	text-align: justify;
+	line-height: 20px;
+    padding-right: 10px;   
+}
+
+.about para{
+    width: 425px;
+    float: left;
+    color: #86bc79;
+    display: block;
+    padding-right: 25px;
+    padding-bottom: 10px;
+}
+
+/*full block for img = 400 width*/
+.about img{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    float: left;
+    display: block;
+}
+
+.about ul{ 
+    text-align: left;
+    font-family: "Soft Elegance";
+}
+
+/*Portfolio + Portfolio Descriptions*/
+.portfolio {
+padding-top: 130px;
+padding-bottom: 60px;
+width: 850px;
+}
+/* Currently disabled 
+.portfolio a:link img {
+padding: 10px;
+}
+.portfolio a:visited img {
+padding: 10px;
+}
+.portfolio a:hover img {
+padding: 10px;
+}*/
+
+.portfolio h1 {
+	margin-bottom: 3px;
+}
+
+.portfolio h2 {
+	font-family: "Spatha Sans";
+	font-size: 12pt;
+	margin-top: 0px;
+	margin-bottom: 16px;
+	color: #86bc79
+}
+
+.portfolio h3 {
+	margin-top: 3px;
+	font-family: "Soft Elegance";
+	color: #86bc79;
+	font-size: 12pt;
+	text-align: left;
+	line-height: 20px;
+	padding-bottom: 8px;
+}
+
+.portfolio p {
+	font-family: "Soft Elegance";
+	color: #86bc79;
+	font-size: 12pt;
+	text-align: left;
+	line-height: 5px;
+}
+
+.portfolio img {
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+}
+
+/*images in portfolio gallery*/
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul.img-list li {
+  display: inline-block;
+  height: 200px;
+  margin: 0.2em;
+  position: relative;
+}
+
+.thumbnail {
+	width: 200px;
+	height: 200px;
+}
+
+span.text-content {
+  background: rgba(134,188,121,0.75); 
+  color: white;
+  font-size: 14pt;
+  font-family: "Spatha Sans";
+  cursor: pointer;
+  display: table;
+  height: 200px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 200px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;  
+}
+
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  padding: 2px;
+}
+
+.image {
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+font-size: 10pt;
+
+}
+
+.image h2 {
+font-family: 'Muli', Arial;
+margin: 0px;
+margin-left: 0px;
+}
+
+.image a:link, a:active {color: #a1b095; text-decoration: none;}
+.image a:visited {color: #a1b095; text-decoration: none;}
+.image a:hover {color: black; text-decoration: none;}
+
+/*Next and Previous Buttons*/
+.nextbutton {
+position: fixed;
+top: 50%;
+right: 20px;
+float: right;
+}
+
+.nextbutton a { display:block; width: 100px; height: 100px; background: url("../images/next.png") 0 0 no-repeat; }
+.nextbutton a:hover { opacity: 0.5; }
+.nextbutton a:active { opacity: 0.5; transform: translateY(5px); }
+
+.prevbutton {
+position: fixed;
+top: 50%;
+left: 20px;
+float: left;
+}
+
+.prevbutton a { display:block; width: 100px; height: 100px; background: url(../images/prev.png) 0 0 no-repeat; }
+.prevbutton a:hover { opacity: 0.5; }
+.prevbutton a:active { opacity: 0.5; transform: translateY(4px);}
+
+/*Footer*/
+.footer {
+height: 50px;
+font-size: 10pt;
+position: fixed;
+bottom: 0;
+color: #86bc79;
+background-color: #506b41;
+padding-top: 10px;
+padding-bottom: 5px;
+font-family: "Spatha Sans";
+}
+
+.footer img {
+    width: 35px;
+}
+
+.footer a:link, a:active, a:visited {color: #f4f1d7; text-decoration: none;}
+.footer a:hover {opacity: .5; text-decoration: none;}
+
+/*stars b/w footer links*/ 
+.footer h1 {
+	font-family: "Starz 2"; 
+	font-size: 16px;
+	display: inline;
+	padding-left: 12px;
+	padding-right: 12px;
+	color: #f1f1aa;
+}
+
+.fotgal {border:1px; border-thickness: 1px; border-color: #FF63E7;
+border-style: solid;}
+A:visited .fotgal {border:1px; border thickness: 1px; border-color: #FF63E7; border-style: solid}
+A:hover .fotgal, A:active .fotgal {border:1px; border-thickness: 1px;
+border-color: black; border-style: solid}
+
+
