@@ -74,7 +74,7 @@ font-family: "Spatha Sans";
 
 /*Header - Logo and Name*/
 .header {
-padding: 0px;
+/*padding: 0px;
 padding-top: 5px;
 font-size: 30pt;
 font-weight: bold;
@@ -82,14 +82,26 @@ background-color: #264c1a;
 position: fixed;
 top: 0px;
 vertical-align: bottom;
-z-index:1;
+z-index:1;*/
+
+padding: 0px;
+height: 15px;
+width: 100%;
+font-size: 10pt;
+position: fixed;
+color: #86bc79;
+background-color: #264c1a;
+padding-top: 10px;
+font-family: "Spatha Sans";
+top; 0px;
+z-index: 1;
+vertical-align: bottom;
 }
 
 /*Nav*/
 .nav {
-padding-top: 10px;
+padding-top: 5px;
 padding-bottom: 10px;
-padding-right: 25px;
 font-size: 16pt;
 font-weight: normal;
 font-family: "Spatha Sans";
@@ -104,8 +116,8 @@ color: #f1f1aa;
 	font-family: "Starz 2"; 
 	font-size: 16px;
 	display: inline;
-	padding-left: 12px;
-	padding-right: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 /*Main Page- Image Highlight*/
@@ -205,6 +217,7 @@ width: 850px;
 padding-top: 130px;
 padding-bottom: 60px;
 width: 850px;
+
 }
 /* Currently disabled 
 .portfolio a:link img {
@@ -350,6 +363,7 @@ float: left;
 /*Footer*/
 .footer {
 height: 50px;
+width: 100%;
 font-size: 10pt;
 position: fixed;
 bottom: 0;
@@ -362,6 +376,7 @@ font-family: "Spatha Sans";
 
 .footer img {
     width: 35px;
+    /*position: relative*/
 }
 
 .footer a:link, a:active, a:visited {color: #f4f1d7; text-decoration: none;}
