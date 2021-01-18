@@ -254,16 +254,6 @@ padding-bottom: 60px;
 width: 850px;*/
 
 }
-/* Currently disabled 
-.portfolio a:link img {
-padding: 10px;
-}
-.portfolio a:visited img {
-padding: 10px;
-}
-.portfolio a:hover img {
-padding: 10px;
-}*/
 
 .portfolio h1 {
     display: flex;
@@ -402,12 +392,15 @@ float: left;
 .prevbutton a:active { opacity: 0.5; transform: translateY(4px);}
 
 /*TEST - MULTIPLE SCREEN SIZES*/
-@media (max-width: 768px) {
+
+
+
+/*@media (max-width: 768px) {
     ul.img-list li.coming-soon {
         display: none;
     }
     ul.img-list li {
-        max-width: 45% !important;
+        max-width: 50% !important;
         height: auto;
     }
     ul.img-list li img {
@@ -428,10 +421,10 @@ float: left;
 }
 
 @media (min-width: 768px) {
-div.gallery {
-margin-right: 80px;
-margin-left: 80px;
-}
+    div.portfolio {
+    margin-right: 80px;
+    margin-left: 80px;
+    }
 }
 
 
@@ -439,12 +432,6 @@ margin-left: 80px;
 .footer {
 height: 50px;
 width: 100%;
-    
-/*font-size: 10pt;
-display: flex;
-justify-content: center;
-text-align: center*/    
-    
 position: fixed;
 bottom: 0;
 color: #86bc79;
