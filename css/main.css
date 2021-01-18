@@ -21,6 +21,14 @@
 	font-style: normal;
 }
 
+/*TEST - Responsive Grid*/
+
+
+* {
+  box-sizing: border-box;
+}
+
+
 /*Hides Scrollbar - Keeps functionality*/
 html {
     overflow: scroll;
@@ -76,7 +84,8 @@ hr {
     color: #86bc79;
     background-color: #264c1a;
     font-family: "Spatha Sans";*/
-    
+    display: flex;
+    justify-content: center;
     box-sizing: border-box;
     position: fixed;
     z-index: 1;
@@ -90,8 +99,13 @@ hr {
 
 /*Nav*/
 .nav {
+    /*padding-top: 5px;
+    padding-bottom: 10px;*/
+    display: flex;
+    justify-content: center;
+    text-align: center;
     padding-top: 5px;
-    padding-bottom: 10px;
+    padding-bottom: 5px; 
     font-size: 16pt;
     font-weight: normal;
     font-family: "Spatha Sans";
@@ -103,21 +117,23 @@ hr {
 
 /*stars b/w nav*/ 
 .nav h1 {
+    /*display: flex;
+    justify-content: center;*/
     font-family: "Starz 2"; 
-    font-size: 16px;
-    display: inline;
+    font-size: 14px;
+    line-height: 8px;
     padding-left: 10px;
     padding-right: 10px;
 }
 
 /*Main Page- Image Highlight*/
 .main  {
+    display: flex;
+    justify-content: center;
     margin: auto;
     padding-top: 135px;
     max-width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
+    height: auto;  
 }
 
 .main img {
@@ -395,5 +411,8 @@ border-style: solid;}
 A:visited .fotgal {border:1px; border-thickness: 1px; border-color: #FF63E7; border-style: solid}
 A:hover .fotgal, A:active .fotgal {border:1px; border-thickness: 1px;
 border-color: black; border-style: solid}*/
+
+/*TEST - MULTIPLE SCREEN SIZES*/
+
 
 
