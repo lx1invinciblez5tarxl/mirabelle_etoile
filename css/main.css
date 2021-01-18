@@ -61,6 +61,7 @@ h1 {
 }
 
 hr {
+    
     border: 0px;
     border-top: 2px dashed #628c54;
     padding-bottom: 10px;
@@ -143,11 +144,18 @@ hr {
 .main a:visited {color: #a1b095; text-decoration: none;}
 .main a:hover {color: black; text-decoration: none;}
 
-/*About*/
+/*RE-DO ABOUT SECTION IN ABOUT.HTML -START REMOVING THE WHOLE ABOUT CLASS, THEN REPLACE THE ABOUT CLASS TO PORTFOLIO CLASS IN THE ABOUT SECTION*/
 .about  {
-padding-top: 146px;
-padding-bottom: 60px;
-width: 850px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 135px;
+    padding-bottom: 135px;
+    padding-left: 135px;
+    padding-right: 155px;    
+    max-width: 100%;
+    height: auto;     
+     
 }
 
 .about a:link, a:active {color: #a1b095; text-decoration: none;}
@@ -155,7 +163,12 @@ width: 850px;
 .about a:hover {color: black; text-decoration: none;}
 
 .about h1 {
-	display: inline;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+
 	
 }
 
@@ -175,11 +188,11 @@ width: 850px;
 	margin-top: 0px;
 	color: #86bc79
 }
-
+/*
 .about hr {
     text-align: center;
     width: 850px;
-}
+}*/
 
 .about h4 {
 	margin-top: 10px;
@@ -225,9 +238,20 @@ width: 850px;
 
 /*Portfolio + Portfolio Descriptions*/
 .portfolio {
-padding-top: 130px;
+
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 135px;
+    padding-bottom: 135px;
+    padding-left: 135px;
+    padding-right: 155px;    
+    max-width: 100%;
+    height: auto;     
+    
+/*padding-top: 130px;
 padding-bottom: 60px;
-width: 850px;
+width: 850px;*/
 
 }
 /* Currently disabled 
@@ -242,15 +266,21 @@ padding: 10px;
 }*/
 
 .portfolio h1 {
-	margin-bottom: 3px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+
 }
 
 .portfolio h2 {
-	font-family: "Spatha Sans";
-	font-size: 12pt;
-	margin-top: 0px;
-	margin-bottom: 16px;
-	color: #86bc79
+	font-family: "Starz 2"; 
+	font-size: 16px;
+	display: inline;
+	padding-left: 12px;
+	padding-right: 12px;
+	color: #628c54;
 }
 
 .portfolio h3 {
@@ -386,7 +416,7 @@ float: left;
     }
     span.text-content {
       font-size: 14pt;
-      font-family: 'Muli', Arial;
+      font-family: "Spatha Sans";
       height: auto;
       left: 0;
       position: absolute;
@@ -409,7 +439,12 @@ margin-left: 80px;
 .footer {
 height: 50px;
 width: 100%;
-font-size: 10pt;
+    
+/*font-size: 10pt;
+display: flex;
+justify-content: center;
+text-align: center*/    
+    
 position: fixed;
 bottom: 0;
 color: #86bc79;
@@ -420,7 +455,10 @@ font-family: "Spatha Sans";
 }
 
 .footer img {
-    width: 35px;
+    display: inline;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 40px;
     /*position: relative*/
 }
 
@@ -432,6 +470,8 @@ font-family: "Spatha Sans";
 	font-family: "Starz 2"; 
 	font-size: 16px;
 	display: inline;
+    justify-content: center;
+    box-sizing: border-box;
 	padding-left: 12px;
 	padding-right: 12px;
 	color: #f1f1aa;
