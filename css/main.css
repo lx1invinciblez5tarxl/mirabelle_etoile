@@ -351,17 +351,17 @@ span.text-content span {
 }
 
 .image {
-margin-left: auto;
-margin-right: auto;
-margin-top: 10px;
-font-size: 10pt;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    font-size: 10pt;
 
 }
 
 .image h2 {
-font-family: 'Muli', Arial;
-margin: 0px;
-margin-left: 0px;
+    font-family: 'Muli', Arial;
+    margin: 0px;
+    margin-left: 0px;
 }
 
 .image a:link, a:active {color: #a1b095; text-decoration: none;}
@@ -370,10 +370,10 @@ margin-left: 0px;
 
 /*Next and Previous Buttons*/
 .nextbutton {
-position: fixed;
-top: 50%;
-right: 20px;
-float: right;
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    float: right;
 }
 
 .nextbutton a { display:block; width: 100px; height: 100px; background: url("../images/next.png") 0 0 no-repeat; }
@@ -381,10 +381,10 @@ float: right;
 .nextbutton a:active { opacity: 0.5; transform: translateY(5px); }
 
 .prevbutton {
-position: fixed;
-top: 50%;
-left: 20px;
-float: left;
+    position: fixed;
+    top: 50%;
+    left: 20px;
+    float: left;
 }
 
 .prevbutton a { display:block; width: 100px; height: 100px; background: url(../images/prev.png) 0 0 no-repeat; }
@@ -392,15 +392,14 @@ float: left;
 .prevbutton a:active { opacity: 0.5; transform: translateY(4px);}
 
 /*TEST - MULTIPLE SCREEN SIZES*/
-
-
-
-/*@media (max-width: 768px) {
+/*
+@media (max-width: 768px) {
+    }
     ul.img-list li.coming-soon {
         display: none;
     }
     ul.img-list li {
-        max-width: 50% !important;
+        max-width: 45% !important;
         height: auto;
     }
     ul.img-list li img {
@@ -421,24 +420,25 @@ float: left;
 }
 
 @media (min-width: 768px) {
-    div.portfolio {
+    div.gallery {
     margin-right: 80px;
     margin-left: 80px;
     }
-}
+}*/
 
 
 /*Footer*/
 .footer {
-height: 50px;
-width: 100%;
-position: fixed;
-bottom: 0;
-color: #86bc79;
-background-color: #506b41;
-padding-top: 10px;
-padding-bottom: 5px;
-font-family: "Spatha Sans";
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    color: #86bc79;
+    background-color: #506b41;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: center;    
+    font-family: "Spatha Sans";
 }
 
 .footer img {
@@ -455,14 +455,21 @@ font-family: "Spatha Sans";
 /*stars b/w footer links*/ 
 .footer h1 {
 	font-family: "Starz 2"; 
-	font-size: 16px;
-	display: inline;
-    justify-content: center;
-    box-sizing: border-box;
-	padding-left: 12px;
-	padding-right: 12px;
+    display: inline;
+	font-size: 14px;
+	padding-left: 10px;
+	padding-right: 10px;
 	color: #f1f1aa;
 }
+/*
+.nav h1 {
+    /*display: flex;
+    justify-content: center;*/
+    /*font-family: "Starz 2"; 
+    font-size: 14px;
+    line-height: 8px;
+    padding-left: 10px;
+    padding-right: 10px;*/
 
 .fotgal {border:1px; border-thickness: 1px; border-color: #FF63E7;
 border-style: solid;}
