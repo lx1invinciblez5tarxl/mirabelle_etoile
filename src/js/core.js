@@ -157,7 +157,7 @@
     //   "zoom-in-out'
     //   "rotate'
     //
-    transitionEffect: "fade",
+    transitionEffect: "false",
 
     // Duration in ms for transition animation
     transitionDuration: 366,
