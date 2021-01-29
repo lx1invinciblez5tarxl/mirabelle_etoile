@@ -368,28 +368,6 @@ span.text-content span {
 .image a:visited {color: #a1b095; text-decoration: none;}
 .image a:hover {color: black; text-decoration: none;}
 
-/*Next and Previous Buttons*/
-.nextbutton {
-    position: fixed;
-    top: 50%;
-    right: 20px;
-    float: right;
-}
-
-.nextbutton a { display:block; width: 100px; height: 100px; background: url("../images/next.png") 0 0 no-repeat; }
-.nextbutton a:hover { opacity: 0.5; }
-.nextbutton a:active { opacity: 0.5; transform: translateY(5px); }
-
-.prevbutton {
-    position: fixed;
-    top: 50%;
-    left: 20px;
-    float: left;
-}
-
-.prevbutton a { display:block; width: 100px; height: 100px; background: url(../images/prev.png) 0 0 no-repeat; }
-.prevbutton a:hover { opacity: 0.5; }
-.prevbutton a:active { opacity: 0.5; transform: translateY(4px);}
 
 /*TEST - MULTIPLE SCREEN SIZES*/
 /*
