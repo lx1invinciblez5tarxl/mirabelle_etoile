@@ -221,7 +221,7 @@ hr {
     font-family: "Soft Elegance";
 } */
 
-/*Portfolio + Portfolio Descriptions*/
+/*Portfolio + Portfolio Descriptionsc - May also be applied to About page*/
 .portfolio {
     display: flex;
     justify-content: center;
@@ -259,26 +259,22 @@ hr {
 	color: #264c1a;
 }
 
-/*temp
-.portfolio h4 {
+
+/*FOR ABOUT ME DESCRIPTION*/
+div {
     display: flex;
-    justify-content: center;
-	margin-top: 10px;
-	font-family: "Soft Elegance";
-	color: #264c1a;
-	font-size: 12pt;
-	text-align: justify;
-	line-height: 20px;
-    padding-right: 10px;
-}*/
+    margin: auto;
+    max-width: 500px;
+}
 
 .portfolio p {
 	display: flex;
-    margin: auto;
+    margin: auto; 
+    text-align: justify;
     font-family: "Soft Elegance";
 	font-size: 12pt;
     padding-top: 12px;  
-    color: #86bc79;
+    color: #264c1a;
 }
 
 .portfolio img {
@@ -287,12 +283,15 @@ hr {
 border-radius: 20px;
 }
 
+
 /*image links on the about page (not including the Open/Closed Commissions status*/
 .about img{
     display: inline;
     justify-content: center;
     box-sizing: border-box;
 }
+
+
 
 .about a:link, a:active, a:visited {color: #f4f1d7; text-decoration: none;}
 .about a:hover {opacity: .5; text-decoration: none;}
