@@ -47,8 +47,8 @@ body {
     font-family: "Spatha Sans";
     font-size: 12pt;
     line-height: 15pt;
-    color: #628c54;
-    background-color: #f4f1d7;
+    color: #264c1a;
+    background-color: #F1F1A9;
 }
 
 td {
@@ -63,7 +63,7 @@ h1 {
 hr {
     
     border: 0px;
-    border-top: 2px dashed #628c54;
+    border-top: 2px dashed #264c1a;
     padding-bottom: 10px;
     font-family: "Spatha Sans";
 }
@@ -142,7 +142,7 @@ hr {
 .main a:visited {color: #a1b095; text-decoration: none;}
 .main a:hover {color: black; text-decoration: none;}
 
-/*RE-DO ABOUT SECTION IN ABOUT.HTML -START REMOVING THE WHOLE ABOUT CLASS, THEN REPLACE THE ABOUT CLASS TO PORTFOLIO CLASS IN THE ABOUT SECTION*/
+/*
 .about  {
     display: flex;
     justify-content: center;
@@ -152,7 +152,7 @@ hr {
     padding-left: 135px;
     padding-right: 155px;    
     max-width: 100%;
-    height: auto;     
+    height: auto;      
      
 }
 
@@ -166,36 +166,31 @@ hr {
     margin: auto;
     padding-top: 10px;
     text-align: center;
-
-	
 }
 
-/*stars b/w text*/
 .about h2 {
 	font-family: "Starz 2"; 
 	font-size: 16px;
 	display: inline;
 	padding-left: 12px;
 	padding-right: 12px;
-	color: #628c54;
+	color: #264c1a;
 }
 
 .about h3 {
 	font-family: "Spatha Sans";
 	font-size: 12pt;
 	margin-top: 0px;
-	color: #86bc79
+	color: #264c1a;
 }
-/*
-.about hr {
-    text-align: center;
-    width: 850px;
-}*/
+
 
 .about h4 {
+    display: flex;
+    justify-content: center;
 	margin-top: 10px;
 	font-family: "Soft Elegance";
-	color: #86bc79;
+	color: #264c1a;
 	font-size: 12pt;
 	text-align: justify;
 	line-height: 20px;
@@ -203,40 +198,31 @@ hr {
 }
 
 .about p {
+    display: flex;
+    justify-content: center;
     margin-top: 10px;
 	font-family: "Soft Elegance";
-	color: #86bc79;
+	color: #f1f1aa;
 	font-size: 12pt;
 	text-align: justify;
 	line-height: 20px;
     padding-right: 10px;   
 }
 
-.about para{
-    width: 425px;
-    float: left;
-    color: #86bc79;
-    display: block;
-    padding-right: 25px;
-    padding-bottom: 10px;
-}
 
-/*full block for img = 400 width*/
 .about img{
-    padding-top: 50px;
+    display: flex;
+    justify-content: center;
     padding-bottom: 20px;
-    float: left;
-    display: block;
 }
 
 .about ul{ 
     text-align: left;
     font-family: "Soft Elegance";
-}
+} */
 
 /*Portfolio + Portfolio Descriptions*/
 .portfolio {
-
     display: flex;
     justify-content: center;
     margin: auto;
@@ -246,11 +232,6 @@ hr {
     padding-right: 155px;    
     max-width: 100%;
     height: auto;     
-    
-/*padding-top: 130px;
-padding-bottom: 60px;
-width: 850px;*/
-
 }
 
 .portfolio h1 {
@@ -268,25 +249,38 @@ width: 850px;*/
 	display: inline;
 	padding-left: 12px;
 	padding-right: 12px;
-	color: #628c54;
+	color: #264c1a;
 }
 
 .portfolio h3 {
-	margin-top: 3px;
-	font-family: "Soft Elegance";
-	color: #86bc79;
-	font-size: 12pt;
-	text-align: left;
-	line-height: 20px;
-	padding-bottom: 8px;
+	font-family: "Spatha Sans";
+	font-size: 18px;
+	margin-top: 18px;
+	color: #264c1a;
 }
 
-.portfolio p {
+/*temp
+.portfolio h4 {
+    display: flex;
+    justify-content: center;
+	margin-top: 10px;
 	font-family: "Soft Elegance";
-	color: #86bc79;
+	color: #264c1a;
 	font-size: 12pt;
-	text-align: left;
-	line-height: 5px;
+	text-align: justify;
+	line-height: 20px;
+    padding-right: 10px;
+}*/
+
+.portfolio p {
+	display: flex;
+    margin: auto;
+    font-family: "Soft Elegance";
+	font-size: 12pt;
+    padding-top: 12px;
+    padding-left: 135px;
+    padding-right: 135px;  
+    color: #86bc79;
 }
 
 .portfolio img {
@@ -295,7 +289,21 @@ width: 850px;*/
 border-radius: 20px;
 }
 
+/*image links on the about page (not including the Open/Closed Commissions status*/
+.about img{
+    display: inline;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.about a:link, a:active, a:visited {color: #f4f1d7; text-decoration: none;}
+.about a:hover {opacity: .5; text-decoration: none;}
+
 /*images in portfolio gallery*/
+.hidden{
+    display: none; 
+}
+
 ul.img-list {
   list-style-type: none;
   margin: 0;
@@ -410,7 +418,7 @@ span.text-content span {
     position: fixed;
     bottom: 0;
     color: #86bc79;
-    background-color: #506b41;
+    background-color: #264c1a;
     padding-top: 10px;
     padding-bottom: 5px;
     text-align: center;    
