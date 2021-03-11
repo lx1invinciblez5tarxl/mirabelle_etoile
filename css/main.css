@@ -70,19 +70,8 @@ hr {
 
 /*Header - Logo and Name - Nav*/
 .header {
-    /*padding: 0px;
-    height: 15px;
-    width: 100%;
-    font-size: 10pt;
-    position: fixed;
-    padding-top: 10px;
-    top; 0px;
-    z-index: 1;
-    vertical-align: bottom;
-    color: #86bc79;
-    background-color: #264c1a;
-    font-family: "Spatha Sans";*/
     display: flex;
+    margin: auto;
     justify-content: center;
     box-sizing: border-box;
     position: fixed;
@@ -226,10 +215,7 @@ hr {
     display: flex;
     justify-content: center;
     margin: auto;
-    padding-top: 135px;
-    padding-bottom: 135px;
-    padding-left: 135px;
-    padding-right: 135px;    
+    padding: 135px;  
     max-width: 100%;
     height: auto;     
 }
