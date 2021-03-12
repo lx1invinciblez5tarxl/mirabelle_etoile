@@ -247,7 +247,7 @@ hr {
 
 
 /*FOR ABOUT ME DESCRIPTION*/
-div {
+.about div {
     display: flex;
     margin: auto;
     max-width: 500px;
