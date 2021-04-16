@@ -48,7 +48,9 @@ body {
     font-size: 12pt;
     line-height: 15pt;
     color: #264c1a;
+    background-image: url("../images/mirabell_bg.jpg");
     background-color: #F1F1A9;
+    
 }
 
 td {
