@@ -208,6 +208,36 @@ border-radius: 20px;
     box-sizing: border-box;
 }
 
+/*I just wanted to make the Discord and Email icons highlighted for fun*/
+.aboutfun img:hover {
+    opacity: 0.5;
+}
+
+.tooltip {
+  display: flex;    
+  position: relative;
+}
+
+.tooltip .tooltiptext {
+  top: -5px;
+  right: 65%;  
+  visibility: hidden;
+  width: 120px;
+  background-color: #264c1a;
+  color: #f1f1aa;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
 .about a:link, a:active, a:visited {color: #f4f1d7; text-decoration: none;}
 .about a:hover {opacity: .5; text-decoration: none;}
 
