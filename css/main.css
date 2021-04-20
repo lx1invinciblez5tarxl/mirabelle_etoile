@@ -133,84 +133,6 @@ hr {
 .main a:visited {color: #a1b095; text-decoration: none;}
 .main a:hover {color: black; text-decoration: none;}
 
-/*
-.about  {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    padding-top: 135px;
-    padding-bottom: 135px;
-    padding-left: 135px;
-    padding-right: 155px;    
-    max-width: 100%;
-    height: auto;      
-     
-}
-
-.about a:link, a:active {color: #a1b095; text-decoration: none;}
-.about a:visited {color: #a1b095; text-decoration: none;}
-.about a:hover {color: black; text-decoration: none;}
-
-.about h1 {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    padding-top: 10px;
-    text-align: center;
-}
-
-.about h2 {
-	font-family: "Starz 2"; 
-	font-size: 16px;
-	display: inline;
-	padding-left: 12px;
-	padding-right: 12px;
-	color: #264c1a;
-}
-
-.about h3 {
-	font-family: "Spatha Sans";
-	font-size: 12pt;
-	margin-top: 0px;
-	color: #264c1a;
-}
-
-
-.about h4 {
-    display: flex;
-    justify-content: center;
-	margin-top: 10px;
-	font-family: "Soft Elegance";
-	color: #264c1a;
-	font-size: 12pt;
-	text-align: justify;
-	line-height: 20px;
-    padding-right: 10px;
-}
-
-.about p {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-	font-family: "Soft Elegance";
-	color: #f1f1aa;
-	font-size: 12pt;
-	text-align: justify;
-	line-height: 20px;
-    padding-right: 10px;   
-}
-
-
-.about img{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 20px;
-}
-
-.about ul{ 
-    text-align: left;
-    font-family: "Soft Elegance";
-} */
 
 /*Portfolio + Portfolio Descriptionsc - May also be applied to About page*/
 .portfolio {
@@ -250,15 +172,23 @@ hr {
 
 /*FOR ABOUT ME DESCRIPTION*/
 .about div {
-    display: flex;
+    display: block;
     margin: auto;
     max-width: 500px;
 }
 
-.portfolio p {
-	display: flex;
-    margin: auto; 
-    text-align: justify;
+.about h2 {
+    margin-bottom: 18px;
+    display: block;
+	font-family: "Soft Elegance"; 
+	font-size: 16px;
+	color: #264c1a;
+}
+
+.about p {
+	margin: auto;
+    display: flex;
+    text-align: left;
     font-family: "Soft Elegance";
 	font-size: 12pt;
     padding-top: 12px;  
@@ -271,15 +201,12 @@ hr {
 border-radius: 20px;
 }
 
-
 /*image links on the about page (not including the Open/Closed Commissions status*/
 .about img{
     display: inline;
     justify-content: center;
     box-sizing: border-box;
 }
-
-
 
 .about a:link, a:active, a:visited {color: #f4f1d7; text-decoration: none;}
 .about a:hover {opacity: .5; text-decoration: none;}
